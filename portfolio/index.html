@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Ahmed Abu-Hamad Protfolio</title>
+		<link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/bootstrap-theme.css">
+		<link rel="stylesheet" href="css/animate.css">
+		<link rel="stylesheet" href="css/style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		
+		<script src="js/wow.min.js"></script>
+		
+        <script>
+			new WOW().init();
+        </script>
+	</head>
+	
+	<body>
+		<div class="container wow bounceInLeft">
+			<header class="row">
+				<div class="col-md-6 wow bounceInRight">
+						<img class="imag-responsive logo" src="imgs/Udacity_logo.png" alt="Udacity logo">
+					<!--
+					better to have a source for any outside image.
+					<source media="//">
+					grand
+					-->
+				</div>
+				<div class="col-md-6 text-right text-uppercase wow bounceInLeft">
+					<h1 class="super-title text-thin test">Ahmed Abu-Hamad</h1>
+					<h4 class="sub-super-title">font-end ninja, java programmer</h4>
+				</div>
+			</header>
+			<div class="row">
+				<div class="col-md-12">
+					<hr>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<img class="img-responsive wow tada" src="imgs/main-project.png" alt="Udacity logo">
+					<!-- https://pixabay.com/en/web-web-developer-1935737/ -->
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<h2 class="text-muted worktitle"> Featured Work </h2>
+				</div>
+			</div>
+			<div class="row text-center">
+				<div class="col-md-4 wow bounceInLeft" data-wow-delay="1s">
+					<img class="img-responsive center-block img-project" src="imgs/html-css.jpg" alt="html and css">
+					<!-- https://pixabay.com/en/web-design-laptop-html-design-2038872/ -->
+					<h3 class="text-uppercase"> HTML & CSS</h3>
+					<p class="read-more" data-toggle="modal" data-target="#html-css">Read More</p>
+					<!--
+					<button data-toggle="modal" data-target="#myModal">https://github.com/udacity/applify</button> -->
+				</div>
+				<div class="col-md-4 wow bounceInUp" data-wow-delay="1s">
+					<img class="img-responsive center-block img-project" src="imgs/js.jpg" alt="javascript">
+					<!-- https://pixabay.com/en/close-up-code-coding-computer-2178341/ -->
+					<h3 class="text-uppercase"> javaScript</h3>
+					<p class="read-more" data-toggle="modal" data-target="#javascript">Read More</p>
+				</div>
+				<div class="col-md-4 wow bounceInRight" data-wow-delay="1s">
+					<img class="img-responsive center-block img-project" src="imgs/project3.jpg" alt="img1">
+					<!-- https://pixabay.com/en/student-typing-keyboard-text-woman-849825/ -->
+					<h3 class="text-uppercase"> Programming </h3>
+					<p class="read-more" data-toggle="modal" data-target="#programming">Read More</p>
+				</div>
+			</div>
+				<div class="row">
+				<div class="col-md-12">
+					<hr>
+				</div>
+			</div>
+			<footer>
+				<p class="footer text-center">&copy; Copyright
+				<!-- javascript got from http://www.logicalthings.com/2011/01/always-display-the-current-year-in-your-copyright-notice/
+to get today's year. -->
+					<script type="text/javascript">
+						now = new Date
+						theYear=now.getYear()
+						if (theYear < 1900)
+						theYear=theYear+1900
+						document.write(theYear)
+					</script>
+					. All rights reserved. Ahmed Abu-Hamad</p>
+			</footer>
+			
+			 <!-- Modals -->
+			 <!-- Modal html-css -->
+			  <div id="html-css" class="modal fade" role="dialog">
+				<div class="modal-dialog">
+				
+				  <!-- Modal content-->
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+							<h4 class="modal-title">HTML & CSS</h4>
+						</div>
+						<div class="modal-body">
+							<p>I have done many projects using HTML & CSS:-</p>
+								<ul>
+								  <li>project1</li>
+								  <li>ptoject2</li>
+								  <li>ptoject3</li>
+								</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- end - Modal html-css -->
+			<!-- Modal html-css -->
+			  <div id="javascript" class="modal fade" role="dialog">
+				<div class="modal-dialog">
+				
+				  <!-- Modal javasctipt-->
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+							<h4 class="modal-title">javaScript</h4>
+						</div>
+						<div class="modal-body">
+							<p>I have done many projects using javascript:-</p>
+								<ul>
+								  <li>project1</li>
+								  <li>ptoject2</li>
+								  <li>ptoject3</li>
+								</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- end - Modal javascript -->
+			<!-- Modal programming -->
+			  <div id="programming" class="modal fade" role="dialog">
+				<div class="modal-dialog">
+				
+				  <!-- Modal content-->
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+							<h4 class="modal-title">Programming</h4>
+						</div>
+						<div class="modal-body">
+							<p>I have done many projects/apps using different programming languages:-</p>
+								<ul>
+								  <li>project1</li>
+								  <li>ptoject2</li>
+								  <li>ptoject3</li>
+								</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- end - Modal programming -->
+			<!-- end Modals -->
+		</div>
+		
+		
+
+	</body>
+</html>
